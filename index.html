@@ -1,0 +1,1760 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Avaya - Cloud Solutions Design Consultant</title>
+  <meta content="Avaya - Cloud Solutions Design Consultant Troubleshoot, Configure, Administer, Install, Update, Resolve, etc" name="description">
+  <meta content="Avaya Experience Platform Private Cloud - Phones and Devices" name="keywords">
+
+  <!-- Favicons -->
+  <link href="https://documentation.avaya.com/assets/img/favicon-skin.ico" rel="icon">
+ 
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/glightbox/3.3.0/css/glightbox.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" rel="stylesheet">
+  
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+  <link href="assets/css/carousel.css" rel="stylesheet">
+  <link href="assets/css/modals.css" rel="stylesheet">
+
+ 
+  <!-- =======================================================
+  * Template Name: Append
+  * Template URL: https://bootstrapmade.com/append-bootstrap-website-template/
+  * Updated: May 10 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+  
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <h1 class="sitename">CloudAssist</h1><span>.AXP</span><br>
+       </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li class="dropdown"><a href="index.html#GettingStarted"><span>Getting Started</span><i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="https://virtual.avaya.com/engage2024/agenda" target="_blank" rel="noopener noreferrer">Engage2024</a></li>
+              <li><a class="dropdown-item" href="https://avaya.mavenlink.com/login?from_redirect=true" target="_blank" rel="noopener noreferrer">Mavenlink</a></li>
+              <li><a class="dropdown-item" href="https://avaya.service-now.com/now/nav/ui/classic/params/target/task_list.do%3Fsysparm_userpref_module%3D1523b8d4c611227b00be8216ec331b9a%26sysparm_query%3Dactive%253Dtrue%255Eassigned_to%253Djavascript%3AgetMyAssignments()%255Esys_class_name%2521%253Dincident%255ENQactive%253Dtrue%255Eassigned_to%253Djavascript%3AgetMyAssignments()%255Esys_class_name%253Dincident%255EparentISEMPTY%255EEQ" target="_blank" rel="noopener noreferrer">ServiceNow</a></li>
+              <li><a class="dropdown-item" href="https://teams.microsoft.com/_?tenantId=04a2636c-326d-48ff-93f8-709875bd3aa9#/conversations/19:ade49371f8a34fd48aabc2217aeac419@thread.v2?ctx=chat" target="_blank" rel="noopener noreferrer">Microsoft Teams</a></li>
+              <li><a class="dropdown-item" href="https://spaces.avayacloud.com/spaces/dashboard" target="_blank" rel="noopener noreferrer">AvayaSpaces</a></li>
+              <li><a class="dropdown-item" href="https://spaces.avayacloud.com/spaces/dashboard" target="_blank" rel="noopener noreferrer">AvayaSpaces</a></li>
+            </ul>
+          </li>
+
+          <li class="dropdown"><a href="index.html#service-details"><span>AXP On-Prem</span><i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="index.html#Installation">Installation</a></li>
+              <li><a class="dropdown-item" href="index.html#Configuration">Configuration</a></li> 
+ 			        <li><a class="dropdown-item" href="index.html#ArtificialIntelligence">Artificial Intelligence</a></li>
+             </ul>
+          </li>
+		  
+          <li><a href="index.html#pricing">Workspaces</a></li>
+          
+          <li class="dropdown"><a href="index.html#team"><span>Teams</span><i class="bi bi-chevron-down toggle-dropdown"></i></a>
+ 
+          </li>
+
+          <li class="dropdown"><a href="#"><span>Training</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              
+				  <li class="dropdown"><a href="#"><span>Avaya</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+					<ul>
+					  <li><a href="https://cdn.avaya-learning.com/CDN_CT/61000W/index.html" target="_blank" rel="noopener noreferrer">AXP Getting Started</a></li>
+					  <li><a href="https://cdn.avaya-learning.com/CDN_EU/ATCH/index.html" target="_blank" rel="noopener noreferrer">Tutorial Hub</a></li>              
+					  <li><a href="https://www.avaya-learning.com/lms/#/" target="_blank" rel="noopener noreferrer">Avaya-learning.com</a></li>
+					  <li><a href="https://avaya365.sharepoint.com/:f:/s/CCNXT/EoryNGiZ8epMkXErS0gELJUBhlihBw5QiDbAT6ixgNwxvA?e=XB6fog" target="_blank" rel="noopener noreferrer">Engineering - KTs</a></li>
+					  <li><a href="https://avaya365.sharepoint.com/:f:/r/sites/Avaya%20Experience%20Platform/Shared%20Documents/Training?csf=1&web=1&e=8hNN1f" target="_blank" rel="noopener noreferrer">Internal - KTs</a></li>
+					  <li><a href="https://avaya365.sharepoint.com/:f:/r/sites/Avaya%20Experience%20Platform/Shared%20Documents/Training/Monday%20Tech%20Talk?csf=1&web=1&e=8SVGdm" target="_blank" rel="noopener noreferrer">Monday Tech Talks</a></li>
+					  <li><a href="https://avaya365.sharepoint.com/:f:/r/sites/Avaya%20Experience%20Platform/Shared%20Documents/Training/Tech%20Call%20Recording%20Archive?csf=1&web=1&e=MjBki2" target="_blank" rel="noopener noreferrer">Tech calls Alex Forth</a></li>
+					  <li><a href="https://avaya.atlassian.net/wiki/x/OQBSAw" target="_blank" rel="noopener noreferrer">Day2 - KTs</a></li>
+ 					</ul>
+				  </li>
+          <li class="dropdown"><a href="#"><span>Edify</span><i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a class="dropdown-item" href="https://catalyst-learning.avaya.cx/account/signin">Edify Training</a></li> 
+            </ul>
+            </li>
+				  <li class="dropdown"><a href="#"><span>Google</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+					<ul>
+					  <li><a href="https://www.cloudskillsboost.google/" target="_blank" rel="noopener noreferrer">Google Upskilling</a></li>
+ 					</ul>
+				  </li>
+				  <li class="dropdown"><a href="#"><span>Microsoft</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+					<ul>
+					  <li><a href="https://learn.microsoft.com/en-us/training/" target="_blank" rel="noopener noreferrer">Microsoft Learn</a></li>
+ 					</ul>
+				  </li>	
+				  <li class="dropdown"><a href="#"><span>AWS</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+					<ul>
+						<li><a href="https://aws.amazon.com/training/?nc2=sb_tc" target="_blank" rel="noopener noreferrer">AWS Skill Builder</a></li>
+ 					</ul>
+				  </li>
+				  <li class="dropdown"><a href="#"><span>Innovatia</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+					<ul>
+						<li><a href="https://itsi.talentlms.com/dashboard" target="_blank" rel="noopener noreferrer">Innovatia Learning</a></li>
+ 					</ul>
+				  </li>	
+          <li><a href="https://www.credly.com/earner/dashboard" target="_blank" rel="noopener noreferrer">Credly</a></li>			  
+            </ul>
+        </li>		
+          </li>
+
+          <li class="dropdown"><a href="#"><span>Prices</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+   			    <li class="dropdown"><a href="#"><span>Customers</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+              <ul>
+                  <li><a class="dropdown-item" href="https://avaya365.sharepoint.com/:f:/s/Avaya%20Experience%20Platform/EnKB_hKB3GxMiPDT-YGIZFQBd77phxdaO0UBmFDu3BpGPg?e=khaQXi" target="_blank" rel="noopener noreferrer">AXP Project Repository</a></li>
+                  <li><a class="dropdown-item" href="https://cbs.avaya.com/cbsui/#/dashboard" target="_blank" rel="noopener noreferrer">Search Subscriptions</a></li>
+                  <li><a class="dropdown-item" href="https://ssp.cbs.avayacloud.com/pc" target="_blank" rel="noopener noreferrer">Product Catalog</a></li>
+                  <li><a class="dropdown-item" href="https://avaya.atlassian.net/wiki/spaces/APSCCAAS/pages/117907143/Subscription+IDs+Customer+List" target="_blank" rel="noopener noreferrer">Customer List</a></li>
+                  
+              </ul>
+			      </li>					  
+			    <li class="dropdown"><a href="#"><span>Sales Portal</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a class="dropdown-item" href="https://sales.avaya.com/en/sppvideos/search-results/%3Fcategoryid%3D1378125382891" target="_blank" rel="noopener noreferrer">Sales Portal</a></li>
+              <li><a class="dropdown-item" href="https://support.avaya.com/css/public/documents/101085945" target="_blank" rel="noopener noreferrer">AXP Try & Buy</a></li>
+              <li><a class="dropdown-item" href="https://sales.avaya.com/documents/1625331773930" target="_blank" rel="noopener noreferrer">Verint Opportunity Workbook</a></li>
+              <li><a class="dropdown-item" href="https://sales.avaya.com/documents/1625317019650" target="_blank" rel="noopener noreferrer">Voice</a></li>
+              <li><a class="dropdown-item" href="https://sales.avaya.com/documents/1625331238741" target="_blank" rel="noopener noreferrer">All Media</a></li>
+              <li><a class="dropdown-item" href="https://sales.avaya.com/documents/1625331773930" target="_blank" rel="noopener noreferrer">Offer Definition</a></li>
+              <li><a class="dropdown-item" href="https://sales.avaya.com/documents/1399819920946" target="_blank" rel="noopener noreferrer">Service Catalog</a></li>
+              <li><a class="dropdown-item" href="https://sales.avaya.com/documents/1399812583676" target="_blank" rel="noopener noreferrer">Service Description</a></li>
+              <li><a class="dropdown-item" href="https://sales.avaya.com/documents/1625301718202" target="_blank" rel="noopener noreferrer">Professional Services Catalog</a></li>
+              <li><a class="dropdown-item" href="https://sales.avaya.com/en/general/product-roadmap" target="_blank" rel="noopener noreferrer">Product Roadmap</a></li>
+            </ul>
+			    </li>
+			  <li class="dropdown"><a href="#"><span>Material Code</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+          <ul>
+            <li><a class="dropdown-item" href="https://avaya365.sharepoint.com/:u:/s/Avaya%20Experience%20Platform/EXHi1O-8-shJnhXUbGdiQvIBakfNFPX8EnYXONRLYtHZag" target="_blank" rel="noopener noreferrer">Services Catalog</a></li>
+            <li><a class="dropdown-item" href="https://ssp.cbs.avayacloud.com/pc" target="_blank" rel="noopener noreferrer">Product Catalog</a></li>
+          </ul>
+			  </li>
+     </ul>
+    </li>
+		    
+    <li class="dropdown"><a href="#footer"><span>Contacts</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+      <ul>
+       <li class="dropdown"><a href="#"><span>Avaya.com</span><i class="bi bi-chevron-down toggle-dropdown"></i></a>
+          <ul>
+            <li><a class="dropdown-item" href="https://currents.avaya.com/en/home" target="_blank" rel="noopener noreferrer">Currents</a></li>
+            <li><a class="dropdown-item" href="https://performancemanager5.successfactors.eu/sf/orgchart?bplte_company=C0000211211P&_s.crb=QCfhgixbG6K%252bxP0cLKvfvfyswz03CrvBcSX3R1cqFSo%253d" target="_blank" rel="noopener noreferrer">Talentmaker</a></li>
+            <li><a class="dropdown-item" href="https://outlook.office365.com/owa/avaya.com/" target="_blank" rel="noopener noreferrer">Office365</a></li>
+            <li><a class="dropdown-item" href="https://avaya365.sharepoint.com/sites/Avaya%20Experience%20Platform/SitePages/Home.aspx" target="_blank" rel="noopener noreferrer">Sharepoint</a></li>
+            <li><a class="dropdown-item" href="https://avaya.atlassian.net/wiki/spaces/ASEC/pages/51160697/Datadog+-+SAML+Access" target="_blank" rel="noopener noreferrer">Atlassian</a></li>
+            <li><a class="dropdown-item" href="https://jira.forge.avaya.com/projects/AXPC/issues/?filter=allopenissues" target="_blank" rel="noopener noreferrer">JIRA</a></li>
+            <li><a class="dropdown-item" href="https://confluence.forge.avaya.com/display/AXPC" target="_blank" rel="noopener noreferrer">Confluence</a></li>
+            <li><a class="dropdown-item" href="https://nucleus.forge.avaya.com/signin" target="_blank" rel="noopener noreferrer">Nucleus</a></li>
+            <li><a class="dropdown-item" href="https://nucleus.forge.avaya.com/" target="_blank" rel="noopener noreferrer">Forge</a></li>
+            <li><a class="dropdown-item" href="https://developers.avayacloud.com/" target="_blank" rel="noopener noreferrer">Avaya Developers</a></li>
+            <li><a class="dropdown-item" href="https://accounts.avayacloud.com/#/dashboard" target="_blank" rel="noopener noreferrer">Avaya Cloud Account</a></li>
+          </ul>
+        </li>					  
+    <li class="dropdown"><a href="#"><span>Innovatia.net</span><i class="bi bi-chevron-down toggle-dropdown"></i></a>
+    <ul>
+      <li><a class="dropdown-item" href="https://outlook.office365.com/owa/innovatia.net/" target="_blank" rel="noopener noreferrer">Office365</a></li>
+      <li><a class="dropdown-item" href="https://itsi.talentlms.com/learner/courseinfo/id:995" target="_blank" rel="noopener noreferrer">Talentlms</a></li>
+      <li><a class="dropdown-item" href="https://app.procedureflow.com/flows/407172" target="_blank" rel="noopener noreferrer">ProcedureFlow</a></li>
+      <li><a class="dropdown-item" href="https://app.procedureflow.com/flows/407172" target="_blank" rel="noopener noreferrer">Additional Training Links </a></li>
+      <li><a class="dropdown-item" href="https://elearning1.innovatia.net/topclass/login.do?redirectTo=%2FretrieveHome.do%3Fnull" target="_blank" rel="noopener noreferrer">TopClass</a></li>
+      <li><a class="dropdown-item" href="file:///C:/Users/ssflooks/OneDrive%20-%20Innovatia%20Inc/Documents/Links/index.html" target="_blank" rel="noopener noreferrer">CM Links</a></li>
+      <li><a class="dropdown-item" href="#" target="_blank" rel="noopener noreferrer">blank</a></li>
+    </ul>
+    </li>
+    <li class="dropdown"><a href="#"><span>RingCenteal</span><i class="bi bi-chevron-down toggle-dropdown"></i></a>
+      <ul>
+        <li><a class="dropdown-item" href="https://login.avaya.com/forms/fedlogin.fcc?TYPE=33554433&REALMOID=06-000a8455-7d4c-1852-aac3-0c5d8708a0be&GUID=&SMAUTHREASON=0&METHOD=GET&SMAGENTNAME=$SM$AnGo9hxIcMtEXISudMrtAAk6J2THSagAcpFqG0ib%2bh1iMEPKS3c4yB1SNyoPbkrF&TARGET=$SM$HTTPS%3a%2f%2flogin%2eavaya%2ecom%2faffwebservices%2fredirectjsp%2fredirect%2ejsp%3fSPID%3dsaml2%3aringcentral%3aprod%26RelayState%3dhttps%3a%2f%2fadmin%2ecloudoffice%2eavaya%2ecom%2fhome%3fcmd%3dlogin%26SMPORTALURL%3dhttps$%3A$%2F$%2Flogin%2eavaya%2ecom$%2Faffwebservices$%2Fpublic$%2Fsaml2sso%26SAMLTRANSACTIONID%3d9642f02d-7f7c8d4f-670552e7-216f6b79-2bf356cd-349" target="_blank" rel="noopener noreferrer">AdminInterface</a></li>
+        <li><a class="dropdown-item" href="https://login.avaya.com/affwebservices/public/saml2sso?SPID=saml2:ringcentral:prod&RelayState=https://scp.cloudoffice.avaya.com/home?cmd=login" target="_blank" rel="noopener noreferrer">SCP NAR Systems </a></li>
+        <li><a class="dropdown-item" href="https://login.avaya.com/affwebservices/public/saml2sso?SPID=saml2:ringcentral:prodeuro&RelayState=https://scp-eu.cloudoffice.avaya.com/home?cmd=login" target="_blank" rel="noopener noreferrer">SCP EMEA Systems </a></li> 
+      </ul>
+      </li>
+      <li class="dropdown"><a href="#"><span>Edify</span><i class="bi bi-chevron-down toggle-dropdown"></i></a>
+        <ul>
+          <li><a class="dropdown-item" href="https://login.avaya.com/affwebservices/public/saml2sso?SPID=saml2:ringcentral:prodeuro&RelayState=https://scp-eu.cloudoffice.avaya.com/home?cmd=login" target="_blank" rel="noopener noreferrer">SCP EMEA Systems </a></li> 
+        </ul>
+        </li>
+  <li class="dropdown"><a href="#"><span>Sharepoint</span><i class="bi bi-chevron-down toggle-dropdown"></i></a>
+    <ul>
+      <li><a class="dropdown-item" href="#" target="_blank" rel="noopener noreferrer">blank</a></li>
+    </ul>
+  </li>
+ 
+  <li><a class="dropdown-item" href="#https://avaya-ccaas-prod.datadoghq.com/account/login?next=%2Flogs%3Fquery%3DFZIUQI%2520registration-failed" target="_blank" rel="noopener noreferrer">Datadog</a></li>
+  </li>
+</ul>
+</li>
+
+    
+    </ul>
+        
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+        
+      </nav>
+  <!--   <a class="btn-getstarted" href="index.html#about">Get Started</a> --> 
+  
+        <div class="dropdown">
+
+          <button class="btn btn-danger" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">Status Check
+            <a id="current-time"></a>
+          </button>
+          
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <li><a class="dropdown-item" href="https://status.avayacloud.com/" target="_blank" rel="noopener noreferrer">Avaya status</a></li>
+              <li><a class="dropdown-item" href="https://status.cloud.google.com/" target="_blank" rel="noopener noreferrer">Google status</a></li>
+              <li><a class="dropdown-item" href="https://azure.status.microsoft/en-us/status" target="_blank" rel="noopener noreferrer">Microsft status</a></li>
+              <li><a class="dropdown-item" href="https://status.cloud.google.com/" target="_blank" rel="noopener noreferrer">Goodgle status</a></li>
+              <li><a class="dropdown-item" href="https://health.aws.amazon.com/health/status" target="_blank" rel="noopener noreferrer">AWS status</a></li>
+              <li><a class="dropdown-item" href="https://status.ringcentral.com/" target="_blank" rel="noopener noreferrer">RingCentral status</a></li>
+              <li><a class="dropdown-item" href="https://status.atlassian.com/" target="_blank" rel="noopener noreferrer">Atlassian's status</a></li>
+              <li><a class="dropdown-item" href="https://status.mavenlink.com/" target="_blank" rel="noopener noreferrer">Mavenlink status</a></li>
+              <li><a class="dropdown-item" href="https://status.datadoghq.com/" target="_blank" rel="noopener noreferrer">Datadog's status</a></li>
+          </ul>
+        </div>    
+      </div>  
+
+  </header>
+
+  <main class="main">
+    
+<!-- Hero Section -->
+<section id="GettingStarted" class="hero section">
+
+  <img src="https://www.avaya.com/en/images/what-is-ccaas-blog-1280-new.jpg" alt="hero bg"> 
+
+      <div class="container">
+   
+           
+<!-- About Section -->
+    <section id="about" class="about section">
+
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="..." class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+<!-- About Section -->
+<section id="about" class="about section">
+
+  <div class="container">
+    <div class="row align-items-xl-center gy-5">
+
+      <div class="col-xl-5">
+        
+      <!-- Button trigger modal --> 
+      <a href="https://avaya365.sharepoint.com/sites/Avaya%20Experience%20Platform/SitePages/Home.aspx" class="btn btn-secondary" target="_blank" rel="noopener noreferrer" >AXP Landing Page</a>
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#axplabModal">AXP lab Details</button>
+        <a href="https://chat-15.experience.avaya.com/" class="btn btn-secondary" target="_blank" rel="noopener noreferrer" >Test Chat SDK</a>
+        <a href="https://messaging-16.experience.avaya.com/" class="btn btn-success" target="_blank" rel="noopener noreferrer" >Test Messenger SDK</a>
+     
+
+        <a href="https://avaya-ada.azurewebsites.net/" target="_blank" rel="noopener noreferrer" class="btn btn-danger" tabindex="-1" role="button" aria-disabled="true">Avaya Ada</a>
+        <a href="https://chatgptprototype.azurewebsites.net/" target="_blank" rel="noopener noreferrer" class="btn btn-danger" tabindex="-1" role="button" aria-disabled="true">Avaya AI Assistant</a>
+        <a href="https://chatgpt.com/?model=auto" target="_blank" rel="noopener noreferrer" class="btn btn-warning" tabindex="-1" role="button" aria-disabled="true">OpenAI</a>
+        <a href="https://gemini.google.com/app" target="_blank" rel="noopener noreferrer" class="btn btn-info" tabindex="-1" role="button" aria-disabled="true">Gemini</a>
+
+        <h2>CloudAssist search:</h2> 
+        <select class="sign-up-form d-flex" id="searchEngine">
+          <option value="https://iframetester.com/?url=https://">iFrame Test</option>
+          <option value="https://jira.forge.avaya.com/browse/">Search Jira </option>
+          <option value="https://report.avaya.com/servicenowreports/sndetails.aspx?number=">Search Incident Report</option> 
+          <option value="https://report.avaya.com/servicenowreports/sncrdetails.aspx?number=">Search Change Request</option> 
+          <option value="https://www.bing.com/search?q=">Audit Trail: SR #:</option>
+          <option value="http://report.avaya.com/siebelreports/fldrill.aspx?site_id=">site_id or FL or Sold TO:</option>
+          <option value="http://report.avaya.com/siebelreports/casedetails.aspx?case_id=">SR #:"</option>
+          <option value="http://report.avaya.com/siebelreports/employeedrill.aspx?UserHandle=">Avaya Handle</option>
+          <option value="https://kb.avaya.com/kb/index?page=answers&startover=y&question_box_status=changed&question_box=">kb.avaya.com</option> 
+          <option value="https://support.avaya.com/support/en/search?q=">Support.Avaya.com Search</option>
+          <option value="https://onecare.avaya.com/customercare/en/search?q=">Onecare.Avaya.com Search</option>
+          <option value="https://documentation.avaya.com/search?q=">documentation.Avaya.com Search</option>
+          <option value="https://documentation.avaya.com/search?labelkey=Avaya_Experience_Platform_Connect&labelkey=ExperiencePlatform_subjectHead&labelkey=FAMILY_Avaya_Experience_Platform&q=">documentation.Avaya.com AXP Search</option>
+          <option value="https://www.google.com/search?q=">Google</option>
+          <option value="https://duckduckgo.com/?q=">DuckDuckGo</option>
+          <option value="https://www.bing.com/search?q=">Bing</option>
+        </select>
+      
+        <input class="sign-up-form d-flex" type="text" id="searchQuery" placeholder="Enter your search...">
+        <button class="btn btn-lg btn-primary" id="searchButton">Search</button> 
+
+      </div>
+
+      <div class="col-xl-7">
+        <div class="row gy-4 icon-boxes">
+
+          <div class="col-md-6">
+            <div class="icon-box">                                   
+              <div class="list-group">
+                <a href="https://sales.avaya.com/en/product-category/avaya-experience-platform" class="list-group-item list-group-item-action" aria-current="true" target="_blank" rel="noopener noreferrer">Avaya Experience Platform </a>
+                <a href="https://raui.sal.avaya.com/salui/homePageContainer.jsf" class="list-group-item list-group-item-action bi" target="_blank" rel="noopener noreferrer">Enhanced SAL</a>
+                <a href="https://raui.sal.avaya.com/salui/" class="list-group-item list-group-item-action bi" target="_blank" rel="noopener noreferrer">SAL3</a>
+                <a href="https://avaya365.sharepoint.com/sites/CCNXT/Avaya%20IX/Forms/AllItems.aspx?ga=1&id=%2Fsites%2FCCNXT%2FAvaya%20IX%2FEngineering%2FRelease%20Notes&viewid=990c8dc7%2D961c%2D4902%2D9cc4%2D31cc39fc5498" class="list-group-item list-group-item-action bi" target="_blank" rel="noopener noreferrer">Engineering - Release Notes</a>
+                <a href="https://avaya365.sharepoint.com/:o:/s/Avaya%20Experience%20Platform/Em7xdgMQCPJMn0Ae_ffX-UMB3a6XaYK_1rqtM30hi8E3Ag?e=YgPRAi" class="list-group-item list-group-item-action bi" target="_blank" rel="noopener noreferrer">Team Notebook</a>
+                <a href="file:///C:/Users/ssflooks/OneDrive%20-%20Innovatia%20Inc/Documents/Avaya/Avaya%20Experience%20Platfrom/Implenemation/" class="list-group-item list-group-item-action bi" target="_blank" rel="noopener noreferrer">Implementation Folder</a>
+
+                <a href="https://avaya365.sharepoint.com/:f:/s/Avaya%20Experience%20Platform/EnKB_hKB3GxMiPDT-YGIZFQBd77phxdaO0UBmFDu3BpGPg?e=khaQXi" class="list-group-item list-group-item-action bi" target="_blank" rel="noopener noreferrer">Team Implementation Folder</a></li>
+
+              </div>
+            </div>
+          </div> <!-- End Icon Box -->
+
+          <div class="col-md-6">
+            <div class="icon-box">
+              <div class="list-group">
+                
+                <a href="https://avaya.atlassian.net/wiki/x/VhoHBw" class="list-group-item list-group-item-action bi" target="_blank" rel="noopener noreferrer">Tips Tricks Findings Tech Calls</a>
+                <a href="https://avaya.atlassian.net/wiki/x/UABSAw" class="list-group-item list-group-item-action bi" target="_blank" rel="noopener noreferrer">Incident Management Training</a>
+                <a href="https://avaya365.sharepoint.com/sites/Avaya%20Experience%20Platform/FormServerTemplates/Forms/All%20Forms.aspx" class="list-group-item list-group-item-action bi" target="_blank" rel="noopener noreferrer">Formas & Templates</a>
+                <a href="https://avaya365-my.sharepoint.com/:x:/g/personal/apschirl_avaya_com/EaJHYgk87-ZFueQgSNNhunQBF2MXSrwS7_rLaGvnThLtgA?e=DcAWNm" class="list-group-item list-group-item-action bi" target="_blank" rel="noopener noreferrer">AXP use Case </a>
+                <a href="https://avaya365.sharepoint.com/:x:/s/Collab9/EV7b6WFQdahPjBysX3Hc3xEBj0Kjz2buXENaNN-MFefAYg?e=kW9lSe&CID=B7022070-BAF6-46DE-B989-BF9F3FCFE7D1&wdLOR=c3F6592C2-695B-4EF8-B350-2FCB1057D9FA" class="list-group-item list-group-item-action bi" target="_blank" rel="noopener noreferrer">War Room Tracker</a>
+                <a href="https://avaya365.sharepoint.com/:f:/s/Avaya_OneCloud/EnfvEAzzcMJNqlBrvT4Svf4BMVOq9f966VIuCKWNmujBCw?e=hBpoiG" class="list-group-item list-group-item-action bi" target="_blank" rel="noopener noreferrer">Cloud Design Review Documents</a>
+             </div>
+          </div> <!-- End Icon Box -->
+        </div>
+      </div>
+    </div>
+  </div>
+</section><!-- /About Section -->
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+        
+    </section><!-- /About Section -->
+  </section><!-- /Hero Section -->
+    
+
+    <!-- Clients Section -->
+    <section id="clients" class="clients section">
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-xl-2 col-md-3 col-6 client-logo">
+            <a href="https://avaya-ccaas-preprod.datadoghq.com/dashboard/kwn-fte-m5i/continuous-performance-ci?fromUser=false&refresh_mode=paused&view=spans&from_ts=1711108315623&to_ts=1711120913436&live=false" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/7/7e/Datadog_logo.svg/1200px-Datadog_logo.svg.png" class="img-fluid" alt=""></a>
+          </div><!-- End Client Item -->
+
+          <div class="col-xl-2 col-md-3 col-6 client-logo">
+            <a href="https://onecare.avaya.com/customercare/en/public" target="_blank">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtw6hB75z5hKBA-1wxoCiav2d-gJ-C2rFmjqQHL0-DllnctfuyvM2t8Ou9eg&s" class="img-fluid" alt=""></a>
+          </div><!-- End Client Item -->
+
+          <div class="col-xl-2 col-md-3 col-6 client-logo">
+            <a href="https://onecare.avaya.com/customercare/en/public" target="_blank">
+            <img src="https://onecare.avaya.com/cs/cop/assets/images/customercareLogo.png" class="img-fluid" alt=""></a>
+          </div><!-- End Client Item -->
+
+          <div class="col-xl-2 col-md-3 col-6 client-logo">
+            <a href="https://onecare.avaya.com/customercare/en/public" target="_blank">
+            <img src="https://onecare.avaya.com/cs/cop/assets/images/customercareLogo.png" class="img-fluid" alt=""></a>
+          </div><!-- End Client Item -->
+
+          <div class="col-xl-2 col-md-3 col-6 client-logo">
+            <a href="https://onecare.avaya.com/customercare/en/public" target="_blank">
+            <img src="https://onecare.avaya.com/cs/cop/assets/images/customercareLogo.png" class="img-fluid" alt=""></a>
+          </div><!-- End Client Item -->
+
+          <div class="col-xl-2 col-md-3 col-6 client-logo">
+            <a href="https://onecare.avaya.com/customercare/en/public" target="_blank">
+            <img src="https://onecare.avaya.com/cs/cop/assets/images/customercareLogo.png" class="img-fluid" alt=""></a>
+          </div><!-- End Client Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Clients Section -->
+
+
+
+    <!-- Services Section -->
+    <section id="Installation" class="services section">
+
+      <!-- Section Title -->
+      <div class="container section-title">
+        <h2>AXP On-Prem Installation Steps</h2>
+          <p><i class="bi bi-check-circle"></i>Formerly Known As: Call Center Elite, CC Elite</p>
+
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-6 ">
+            <div class="service-item d-flex">
+              <div class="icon flex-shrink-0"><i class="bi bi-1-square"></i></div>
+              <div>
+                <h4 class="title"><a href="https://kb.avaya.com/kb/index?page=content&id=S:DOCS101199" class="stretched-link">Using Secure Access Link (SAL) to remotely Access and Configure the Avaya Hybrid Cloud Gateways</a></h4
+                  <p>Avaya Aura SAL Gateway Minimum version 4.1</p>
+                </div>
+            </div>
+          </div>
+          <!-- End Service Item -->
+
+          <div class="col-lg-6 ">
+            <div class="service-item d-flex">
+              <div class="icon flex-shrink-0"><i class="bi bi-2-square"></i></div>
+              <div>
+                <h4 class="title"><a href="https://kb.avaya.com/kb/index?page=content&id=S:DOCS101200" class="stretched-link">Customer Data Gathering and Validation</a></h4
+                <p class="description">Avaya Experience Platform Connect Technical Prerequisites.</p>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-6 ">
+            <div class="service-item d-flex">
+              <div class="icon flex-shrink-0"><i class="bi bi-3-square"></i></div>
+              <div>
+                <h4 class="title"><a href="https://kb.avaya.com/kb/index?page=content&id=S:DOCS101201" class="stretched-link">Avaya Hybrid Cloud Gateway (AHCG) OVA Installation on vSphere</a></h4
+                <p class="description">Avaya Aura® Virtualized Environment (VE): Avaya Solutions Platform 130 (Dell PowerEdge R640, ESXi 7.0)</p>
+                <p class="description">Avaya Solutions Platform S8300 (ESXi 7.0), and Customer-provided VMware infrastructure.</p>
+                <p class="description">Software-only and Infrastructure as a Service environment: Deployment on the Red Hat Enterprise Linux operating system.</p>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-6 ">
+            <div class="service-item d-flex">
+              <div class="icon flex-shrink-0"><i class="bi bi-4-square"></i></div>
+              <div>
+                <h4 class="title"><a href="https://kb.avaya.com/kb/index?page=content&id=S:DOCS101202" class="stretched-link">Avaya Hybrid Cloud Gateway (AHCG) Application Installation</a></h4
+                <p class="description">Integrate collaboration apps with Avaya Communication portfolio.</p>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-6 ">
+            <div class="service-item d-flex">
+              <div class="icon flex-shrink-0"><i class="bi bi-5-square"></i></div>
+              <div>
+                <h4 class="title"><a href="https://kb.avaya.com/kb/index?page=content&id=S:DOCS101203" class="stretched-link">AXP-Connect Element Configuration</a></h4>
+                <p><i class="bi bi-check-circle"> </i>Avaya Aura 10.x. Minimum version 10.1.3+</p>
+                <p><i class="bi bi-check-circle"> </i>Support is available only for Avaya Aura 8.1.3.8 customers who are planning on upgrading to Avaya Aura 10.2 or above.</p>
+                <p><i class="bi bi-check-circle"> </i>Avaya Aura Device Services Minimum version 10.1.1.2+</p>
+ 
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-6 ">
+            <div class="service-item d-flex">
+              <div class="icon flex-shrink-0"><i class="bi bi-6-square"></i></div>
+              <div>
+                <h4 class="title"><a href="https://kb.avaya.com/kb/index?page=content&id=S:DOCS101205" class="stretched-link">Hybrid Cloud Manager (HCM) Access and Log Generation</a></h4>
+                <p class="description">A full-featured unified comms platform managed on-premises.</p>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Services Section -->
+
+
+    <!-- Service Details Section -->
+    <section id="Configuration" class="service-details section">
+
+      <div class="container">
+
+        <div class="row gy-5">
+
+          <div class="col-lg-4">
+
+            <div class="service-box">
+              <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                      Voice
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      Chat
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      Email
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingAi">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseAi" aria-expanded="false" aria-controls="collapseAi">
+                      CCAI
+                    </button>
+                  </h2>
+                  <div id="collapseAi" class="accordion-collapse collapse" aria-labelledby="headingAi" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>This is the CCAI item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingfour">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
+                      Social Connections
+                    </button>
+                  </h2>
+                  <div id="collapsefour" class="accordion-collapse collapse" aria-labelledby="headingfour" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>This is the fourth item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingfive">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefive" aria-expanded="false" aria-controls="collapsefive">
+                      CRM Intergration 
+                    </button>
+                  </h2>
+                  <div id="collapsefive" class="accordion-collapse collapse" aria-labelledby="headingfive" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>This is the fifth item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingsix">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsesix" aria-expanded="false" aria-controls="collapsesix">
+                      Preview Dialing
+                    </button>
+                  </h2>
+                  <div id="collapsesix" class="accordion-collapse collapse" aria-labelledby="headingsix" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>Step by step instruction on Proactive Outreach Demo</strong>   <h3>Admin Section</h3>
+                      <ol>
+                        <li>Open OneCloud Ticket with Cloud Ops to have POM enabled</li>
+                        <li>Administrator -> Account Settings</li>
+                        <ul>
+                          <li>Ensure that Proactive Outreach <i>Preview Dialing</i> is available under unified communication services</li>
+                          <li>Check Voice Channel to validate if there is a Proactive Outreach number and Display Name Present</li>
+                        </ul>
+                        <li>Administration -> Workspaces -> Layout Manager</li>
+                        <ul>
+                          <li>Clone Default Account Layout saving it as Proactive Outreach Layout</li>
+                          <li>Administration -> Workspaces -> Layout Manager -> Proactive Outreach Layout- Welcome Page -> Edit Edit the profile -> Tabs -> Welcome Page</li>
+                          <li>Select Split Pane--Select a Layout--> Pane 1 and 2</li>
+                          <li>Select Widgets</li>
+                          <ul>
+                            <li>Widget 1-->Outbound Connector</li>
+                            <li>Widget 2-->Leave as Welcome Page Save</li>
+                          </ul>
+                          <li>Views--Custom-->Edit Custom</li>
+                          <li>Select a Layout--> Pane 1 and 2 --> Select Split Pane</li>
+                          <li>Select Widgets</li>
+                          <ul>
+                            <li>Widget 1-->Outbound Customer Details</li>
+                            <li>Widget 2--> Outbound Tools -Save</li>
+                          </ul>
+                          <li>-Add a new Tab named Outbound Agent Script</li>
+                          <li>-Role-->Agent and Supervisors</li>
+                          <li>-Icon-->Neo-Icon Screen pop</li>
+                          <li>-Select a Layout--> Pane 1--> Single Pane</li>
+                          <li>-Widget 1--> Outbound Agent Script Screen Pop</li>
+                          <li>-Save</li>
+                        </ul>
+                        <li>Create a new UX Profile for the associated layout</li>
+                        <ul>
+                          <li>-Clone default to create</li>
+                          <li>-Name it Proactive Outreach UX Profile</li>
+                          <li>-Select Layout-->Proactive Outreach Layout</li>
+                          <li>-Save</li>
+                        </ul>
+                        <li>Add queues as required for Proactive Outreach</li>
+                        <ul>
+                          <li>-Save</li>
+                        </ul>
+                        <li>Navigate to Contact Center -> Create a new Category Named System with an Attribute Outbound</li>
+                        <ul>
+                          <li>-Save</li>
+                        </ul>
+                        <li>Create a context Data Rule in Administration</li>
+                        <ul>
+                          <li>-Business Rules -> Context Data Rule -> Add a Rule</li>
+                          <li>-Rule Name--Proactive Outreach</li>
+                          <li>-Add Key Value--> queueName</li>
+                          <li>-Value = Queue Name This is case sensitive</li>
+                        </ul>
+                        <li>Queue Configuration</li>
+                        <ul>
+                          <li>-Routing Queue -> Select Queue from Drop Down</li>
+                          <li>-Routing Attributes -> System Outbound</li>
+                          <li>-Orchestration Flow -> Onecloud Proactive Outreach Acquire</li>
+                          <li>-Save</li>
+                        </ul>
+                        <li>Administration -> Channels -> Voice</li>
+                        <ul>
+                          <li>-Add Routing Attributes -> System Outbound</li>
+                          <li>-Enable Apply Context Data Matching</li>
+                          <li>-Add Context Data Rule named Proactive Outreach</li>
+                        </ul>
+                        <li>Create a Proactive outreach profile to administer the feature.</li>
+                        <ul>
+                          <li>-Administrator -> User Management -> Profiles</li>
+                          <li>-Create a Proactive Outreach Profile</li>
+                        </ul>
+                        <li>Assigning Required Queues</li>
+                        <ul>
+                          <li>-Membership = Agent</li>
+                          <li>-Matching Attributes = SystemOutbound</li>
+                          <li>-Add Queue</li>
+                          <li>-Save</li>
+                        </ul>
+                        <li>Add users to newly created profile that require proactive outreach.</li>
+                      </ol>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End Services List -->
+
+            <div class="service-box">
+              <h4>Download Catalog</h4>
+              <div class="download-catalog">
+                <a href="https://sales.avaya.com/documents/1399813921800" target="blank" rel="noopener noreferrer"><i class="bi bi-filetype-pdf"></i><span>Offer Definition  </span></a>
+                <a href="https://sales.avaya.com/documents/1625325916187" target="blank" rel="noopener noreferrer"><i class="bi bi-file-earmark-word"></i><span>Connect – Technical Prerequisites</span></a>
+                <a href="https://sales.avaya.com/documents/1625325937498" target="blank" rel="noopener noreferrer"><i class="bi bi-filetype-pdf"></i><span>Connect – Sales Guide PDF</span></a>
+                <a href="https://sales.avaya.com/documents/1399839905509" target="blank" rel="noopener noreferrer"><i class="bi bi-file-earmark-word"></i><span>BYOC Offer Definition DOC</span></a>
+                <a href="https://sales.avaya.com/en/general/product-roadmap" target="blank" rel="noopener noreferrer"><i class="bi bi-filetype-pdf"></i><span>Product Roadmap</span></a>
+                <a href="https://sales.avaya.com/documents/1625321795936" target="blank" rel="noopener noreferrer"><i class="bi bi-file-earmark-word"></i><span>Try & Buy Program</span></a>
+                <a href="https://sales.avaya.com/documents/1625327995974" target="blank" rel="noopener noreferrer"><i class="bi bi-filetype-pdf"></i><span>ACES Offers</span></a>
+                <a href="https://sales.avaya.com/documents/1399812583676" target="blank" rel="noopener noreferrer"><i class="bi bi-filetype-pdf"></i><span>Service Description</span></a>
+                <a href="https://sales.avaya.com/documents/1399819920946" target="blank" rel="noopener noreferrer"><i class="bi bi-file-earmark-word"></i><span>Service Catalog</span></a>
+                <a href="https://sales.avaya.com/documents/1625305900629" target="blank" rel="noopener noreferrer"><i class="bi bi-filetype-pdf"></i><span>Security Playbook</span></a>
+                <a href="https://www.avaya.com/en/documents/fs-experience-platform-cc15839en.pdf" target="blank" rel="noopener noreferrer"><i class="bi bi-file-earmark-word"></i><span>Fact Sheet</span></a>
+ 
+              </div>
+            </div><!-- End Services List -->
+ 
+
+          </div>
+
+          <div class="col-lg-8 ps-lg-5">
+            <img src="assets/img/services.jpg" alt="" class="img-fluid services-img">
+            <h3>Fully Qualified Domain Names</h3>
+            <p>
+              Refer to the table for the Fully Qualified Domain Name (FQDNs) in Avaya Experience Platform™:
+            </p>
+            <div class="table-responsive"> <table class="table table-striped">
+              <thead>
+                <tr>
+                  <th>Country/Region</th>
+                  <th>ISO Region Prefix</th>
+                  <th>FQDN</th>
+                  <th>DC Region</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Experience</td>
+                  <td>Demo</td>
+                  <td>experience.cc.avayacloud.com</td>
+                  <td><a href="https://experience.cc.avayacloud.com/services/ApplicationCenter/" target="blank" rel="noopener noreferrer">Experience Demo</a></td>                  
+                </tr>
+                <tr>
+                  <td>Brazil</td>
+                  <td>SA</td>
+                  <td>sa.cc.avayacloud.com</td>
+                  <td><a href="https://sa.cc.avayacloud.com/services/ApplicationCenter/" target="blank" rel="noopener noreferrer">Brazil - south</a></td>                  
+                </tr>
+                <tr>
+                  <td>USA and Canada</td>
+                  <td>NA</td>
+                  <td>na.cc.avayacloud.com</td>
+                  <td><a href="https://na.cc.avayacloud.com/services/ApplicationCenter/" target="blank" rel="noopener noreferrer">US - East2</a></td>
+                </tr>
+                <tr>
+                  <td>Canada</td>
+                  <td>CA</td>
+                  <td>ca.cc.avayacloud.com</td>
+                  <td><a href="https://ca.cc.avayacloud.com/services/ApplicationCenter/" target="blank" rel="noopener noreferrer">CA - East2</a></td>
+                </tr>
+                <tr>
+                  <td>UK</td>
+                  <td>UK</td>
+                  <td>uk.cc.avayacloud.com</td>
+                  <td><a href="https://uk.cc.avayacloud.com/services/ApplicationCenter/" target="blank" rel="noopener noreferrer">UK - South</a></td>
+                </tr>
+                <tr>
+                  <td>Europe</td>
+                  <td>AE</td>
+                  <td>eu.cc.avayacloud.com</td>
+                  <td><a href="#" target="blank" rel="noopener noreferrer">Germany West Central </a></td>
+                </tr>
+                <tr>
+                  <td>UAE (Germany alias)</td>
+                  <td>EU</td>
+                  <td>eu.cc.avayacloud.com</td>
+                  <td><a href="https://eu.cc.avayacloud.com/services/ApplicationCenter/" target="blank" rel="noopener noreferrer">Germany West Central </a></td>
+                </tr>
+                <tr>
+                  <td>APAC</td>
+                  <td>AP</td>
+                  <td>ap.cc.avayacloud.com</td>
+                  <td><a href="https://ap.cc.avayacloud.com/services/ApplicationCenter/" target="blank" rel="noopener noreferrer">Southeast Asia</a></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+            <ul>
+              <li><i class="bi bi-check-circle"></i> <span>Aut eum totam accusantium voluptatem.</span></li>
+              <li><i class="bi bi-check-circle"></i> <span>Assumenda et porro nisi nihil nesciunt voluptatibus.</span></li>
+              <li><i class="bi bi-check-circle"></i> <span>Ullamco laboris nisi ut aliquip ex ea</span></li>
+            </ul>
+            <p>
+              Est reprehenderit voluptatem necessitatibus asperiores neque sed ea illo. Deleniti quam sequi optio iste veniam repellat odit. Aut pariatur itaque nesciunt fuga.
+            </p>
+            <p>
+              Sunt rem odit accusantium omnis perspiciatis officia. Laboriosam aut consequuntur recusandae mollitia doloremque est architecto cupiditate ullam. Quia est ut occaecati fuga. Distinctio ex repellendus eveniet velit sint quia sapiente cumque. Et ipsa perferendis ut nihil. Laboriosam vel voluptates tenetur nostrum. Eaque iusto cupiditate et totam et quia dolorum in. Sunt molestiae ipsum at consequatur vero. Architecto ut pariatur autem ad non cumque nesciunt qui maxime. Sunt eum quia impedit dolore alias explicabo ea.
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Service Details Section -->
+
+
+
+ 	
+
+<section><!-- /ArtificialIntelligence Section Section -->
+
+      <section id="ArtificialIntelligence" class="ArtificialIntelligence-section section">
+   
+        <div class="container" data-aos="fade-up">
+      <!-- Page Title -->
+       <div class="page-title" data-aos="fade">
+         <div class="container section-title">
+          <h2>Artificial Intelligence</h2>
+            <p><i class="bi bi-check-circle"></i> Installation Steps</p>
+  
+        </div><!-- End Section Title -->
+
+         <nav class="breadcrumbs">
+           <div class="container">
+             <ol>
+               <li><a href="index.html">Home</a></li>
+               <li class="current">Artificial Intelligence Installation Steps</li>
+             </ol>
+           </div>
+         </nav>
+       </div><!-- End Page Title -->
+   
+       <!-- ArtificialIntelligence Page Section Section -->
+       <div class="service-box">
+		<div class="d-flex align-items-start">
+		  <div class="nav flex-column nav-pills me-3" id="ai-pills-tab" role="tablist" aria-orientation="vertical">
+			<button class="nav-link active" id="ai-pills-home-tab" data-bs-toggle="pill" data-bs-target="#ai-pills-home" type="button" role="tab" aria-controls="ai-pills-home" aria-selected="true">Home</button>
+			<button class="nav-link" id="ai-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#ai-pills-profile" type="button" role="tab" aria-controls="ai-pills-profile" aria-selected="false">Profile</button>
+			<button class="nav-link" id="ai-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#ai-pills-messages" type="button" role="tab" aria-controls="ai-pills-messages" aria-selected="false">Messages</button>
+			<button class="nav-link" id="ai-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#ai-pills-settings" type="button" role="tab" aria-controls="ai-pills-settings" aria-selected="false">Settings</button>
+		  </div>
+      
+		  <div class="tab-content" id="ai-pills-tabContent">
+			<div class="tab-pane fade show active" id="ai-pills-home" role="tabpanel" aria-labelledby="ai-pills-home-tab">
+        
+                          <!-- Blog Details Section -->        
+                          <div class="container">
+        
+                            <article class="article">
+                              <h2 class="title">Dolorum optio tempore voluptas dignissimos cumque fuga qui quibusdam quia</h2>
+                                <div class="content">
+                                <p>
+                                  Similique neque nam consequuntur ad non maxime aliquam quas. Quibusdam animi praesentium. Aliquam et laboriosam eius aut nostrum quidem aliquid dicta.
+                                  Et eveniet enim. Qui velit est ea dolorem doloremque deleniti aperiam unde soluta. Est cum et quod quos aut ut et sit sunt. Voluptate porro consequatur assumenda perferendis dolore.
+                                </p>
+              
+                                <p>
+                                  Sit repellat hic cupiditate hic ut nemo. Quis nihil sunt non reiciendis. Sequi in accusamus harum vel aspernatur. Excepturi numquam nihil cumque odio. Et voluptate cupiditate.
+                                </p>
+                            </article>                
+                        </div><!-- /Blog Details Section -->
+      
+      </div>
+			<div class="tab-pane fade" id="ai-pills-profile" role="tabpanel" aria-labelledby="ai-pills-profile-tab">
+      
+                          <!-- Blog Details Section -->        
+                          <div class="container">
+        
+                            <article class="article">
+                              <h2 class="title">Dolorum optio tempore voluptas dignissimos cumque fuga qui quibusdam quia</h2>
+                                <div class="content">
+                                <p>
+                                  Similique neque nam consequuntur ad non maxime aliquam quas. Quibusdam animi praesentium. Aliquam et laboriosam eius aut nostrum quidem aliquid dicta.
+                                  Et eveniet enim. Qui velit est ea dolorem doloremque deleniti aperiam unde soluta. Est cum et quod quos aut ut et sit sunt. Voluptate porro consequatur assumenda perferendis dolore.
+                                </p>
+              
+                                <p>
+                                  Sit repellat hic cupiditate hic ut nemo. Quis nihil sunt non reiciendis. Sequi in accusamus harum vel aspernatur. Excepturi numquam nihil cumque odio. Et voluptate cupiditate.
+                                </p>
+                            </article>                
+                        </div><!-- /Blog Details Section -->
+
+      </div>
+			<div class="tab-pane fade" id="ai-pills-messages" role="tabpanel" aria-labelledby="ai-pills-messages-tab">
+        
+                          <!-- Blog Details Section -->        
+                          <div class="container">
+        
+                            <article class="article">
+                              <h2 class="title">Dolorum optio tempore voluptas dignissimos cumque fuga qui quibusdam quia</h2>
+                                <div class="content">
+                                <p>
+                                  Similique neque nam consequuntur ad non maxime aliquam quas. Quibusdam animi praesentium. Aliquam et laboriosam eius aut nostrum quidem aliquid dicta.
+                                  Et eveniet enim. Qui velit est ea dolorem doloremque deleniti aperiam unde soluta. Est cum et quod quos aut ut et sit sunt. Voluptate porro consequatur assumenda perferendis dolore.
+                                </p>
+              
+                                <p>
+                                  Sit repellat hic cupiditate hic ut nemo. Quis nihil sunt non reiciendis. Sequi in accusamus harum vel aspernatur. Excepturi numquam nihil cumque odio. Et voluptate cupiditate.
+                                </p>
+                            </article>                
+                        </div><!-- /Blog Details Section -->
+
+      </div>
+			<div class="tab-pane fade" id="ai-pills-settings" role="tabpanel" aria-labelledby="ai-pills-settings-tab">
+        
+                          <!-- Blog Details Section -->        
+                          <div class="container">
+        
+                            <article class="article">
+                              <h2 class="title">Dolorum optio tempore voluptas dignissimos cumque fuga qui quibusdam quia</h2>
+                                <div class="content">
+                                <p>
+                                  Similique neque nam consequuntur ad non maxime aliquam quas. Quibusdam animi praesentium. Aliquam et laboriosam eius aut nostrum quidem aliquid dicta.
+                                  Et eveniet enim. Qui velit est ea dolorem doloremque deleniti aperiam unde soluta. Est cum et quod quos aut ut et sit sunt. Voluptate porro consequatur assumenda perferendis dolore.
+                                </p>
+              
+                                <p>
+                                  Sit repellat hic cupiditate hic ut nemo. Quis nihil sunt non reiciendis. Sequi in accusamus harum vel aspernatur. Excepturi numquam nihil cumque odio. Et voluptate cupiditate.
+                                </p>
+                            </article>                
+                        </div><!-- /Blog Details Section -->
+                        
+          </div>
+		    </div>
+	    </div>			
+     </div>
+   </section><!-- /ArtificialIntelligence Section Section -->		
+  
+
+    <!-- Stats Section --> <!-- /Stats Section -->
+
+    <!-- Features Section --> <!-- /Features Section -->
+
+    <!-- Portfolio Section --> <!-- /Portfolio Section -->
+
+    <!-- Pricing Section -->
+
+    <section id="pricing" class="pricing section">
+
+      <!-- Section Title -->
+      <div class="container section-title">
+        <h2>Supported browsers for Avaya Experience Platform™</h2>
+        <p>The following are the minimum and maximum supported versions of the supported browsers for Avaya Experience Platform™.</p>
+        <p><strong>Citrix VDI environment</strong> In a Citrix VDI environment, you can use the following browsers: Microsoft Edge Chromium (Windows) or Google Chrome (Windows)</p>
+        <p>Note: Citrix version must be 7 1912 LTSR or later and the Citrix Workspace client version must be 23.11.1.140 (2311.1) or later.</p>
+
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row g-4">
+
+          <div class="col-lg-2">
+            <div class="pricing-item">
+              <h3>Microsoft Internet Explorer</h3>
+              <div class="icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="66" height="66" fill="currentColor" class="bi bi-browser-chrome" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M16 8a8 8 0 0 1-7.022 7.94l1.902-7.098a3 3 0 0 0 .05-1.492A3 3 0 0 0 10.237 6h5.511A8 8 0 0 1 16 8M0 8a8 8 0 0 0 7.927 8l1.426-5.321a3 3 0 0 1-.723.255 3 3 0 0 1-1.743-.147 3 3 0 0 1-1.043-.7L.633 4.876A8 8 0 0 0 0 8m5.004-.167L1.108 3.936A8.003 8.003 0 0 1 15.418 5H8.066a3 3 0 0 0-1.252.243 2.99 2.99 0 0 0-1.81 2.59M8 10a2 2 0 1 0 0-4 2 2 0 0 0 0 4"/>
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="66" height="66" fill="currentColor" class="bi bi-windows" viewBox="0 0 16 16">
+                  <path d="M6.555 1.375 0 2.237v5.45h6.555zM0 13.795l6.555.933V8.313H0zm7.278-5.4.026 6.378L16 16V8.395zM16 0 7.33 1.244v6.414H16z"/>
+                </svg>
+              </div>          
+              <div class="text-center"><a href="https://documentation.avaya.com/bundle/ExperiencePlatform_Solution_Description_10/page/Supported_browsers.html" target="_blank" rel="noopener noreferrer">Not supported</a></div>
+             </div>
+          </div><!-- End Pricing Item -->
+
+          <div class="col-lg-2">
+            <div class="pricing-item">
+              <h3>Microsoft Edge</h3>
+              <div class="icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="66" height="66" fill="currentColor" class="bi bi-browser-edge" viewBox="0 0 16 16">
+                  <path d="M9.482 9.341c-.069.062-.17.153-.17.309 0 .162.107.325.3.456.877.613 2.521.54 2.592.538h.002c.667 0 1.32-.18 1.894-.519A3.84 3.84 0 0 0 16 6.819c.018-1.316-.44-2.218-.666-2.664l-.04-.08C13.963 1.487 11.106 0 8 0A8 8 0 0 0 .473 5.29C1.488 4.048 3.183 3.262 5 3.262c2.83 0 5.01 1.885 5.01 4.797h-.004v.002c0 .338-.168.832-.487 1.244l.006-.006z"/>
+                  <path d="M.01 7.753a8.14 8.14 0 0 0 .753 3.641 8 8 0 0 0 6.495 4.564 5 5 0 0 1-.785-.377h-.01l-.12-.075a5.5 5.5 0 0 1-1.56-1.463A5.543 5.543 0 0 1 6.81 5.8l.01-.004.025-.012c.208-.098.62-.292 1.167-.285q.194.001.384.033a4 4 0 0 0-.993-.698l-.01-.005C6.348 4.282 5.199 4.263 5 4.263c-2.44 0-4.824 1.634-4.99 3.49m10.263 7.912q.133-.04.265-.084-.153.047-.307.086z"/>
+                  <path d="M10.228 15.667a5 5 0 0 0 .303-.086l.082-.025a8.02 8.02 0 0 0 4.162-3.3.25.25 0 0 0-.331-.35q-.322.168-.663.294a6.4 6.4 0 0 1-2.243.4c-2.957 0-5.532-2.031-5.532-4.644q.003-.203.046-.399a4.54 4.54 0 0 0-.46 5.898l.003.005c.315.441.707.821 1.158 1.121h.003l.144.09c.877.55 1.721 1.078 3.328.996"/>
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="66" height="66" fill="currentColor" class="bi bi-windows" viewBox="0 0 16 16">
+                  <path d="M6.555 1.375 0 2.237v5.45h6.555zM0 13.795l6.555.933V8.313H0zm7.278-5.4.026 6.378L16 16V8.395zM16 0 7.33 1.244v6.414H16z"/>
+                </svg>
+              </div>     
+              <div class="text-center"><a href="https://documentation.avaya.com/bundle/ExperiencePlatform_Solution_Description_10/page/Supported_browsers.html" target="_blank" rel="noopener noreferrer">Not supported</a></p></div>
+            </div>
+          </div><!-- End Pricing Item -->
+
+          <div class="col-lg-2">
+            <div class="pricing-item">
+              <h3>Microsoft Edge Chromium (Windows)</h3>
+              <div class="icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="66" height="66" fill="currentColor" class="bi bi-browser-chrome" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M16 8a8 8 0 0 1-7.022 7.94l1.902-7.098a3 3 0 0 0 .05-1.492A3 3 0 0 0 10.237 6h5.511A8 8 0 0 1 16 8M0 8a8 8 0 0 0 7.927 8l1.426-5.321a3 3 0 0 1-.723.255 3 3 0 0 1-1.743-.147 3 3 0 0 1-1.043-.7L.633 4.876A8 8 0 0 0 0 8m5.004-.167L1.108 3.936A8.003 8.003 0 0 1 15.418 5H8.066a3 3 0 0 0-1.252.243 2.99 2.99 0 0 0-1.81 2.59M8 10a2 2 0 1 0 0-4 2 2 0 0 0 0 4"/>
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="66" height="66" fill="currentColor" class="bi bi-windows" viewBox="0 0 16 16">
+                  <path d="M6.555 1.375 0 2.237v5.45h6.555zM0 13.795l6.555.933V8.313H0zm7.278-5.4.026 6.378L16 16V8.395zM16 0 7.33 1.244v6.414H16z"/>
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="66" height="66" fill="currentColor" class="bi bi-browser-edge" viewBox="0 0 16 16">
+                  <path d="M9.482 9.341c-.069.062-.17.153-.17.309 0 .162.107.325.3.456.877.613 2.521.54 2.592.538h.002c.667 0 1.32-.18 1.894-.519A3.84 3.84 0 0 0 16 6.819c.018-1.316-.44-2.218-.666-2.664l-.04-.08C13.963 1.487 11.106 0 8 0A8 8 0 0 0 .473 5.29C1.488 4.048 3.183 3.262 5 3.262c2.83 0 5.01 1.885 5.01 4.797h-.004v.002c0 .338-.168.832-.487 1.244l.006-.006z"/>
+                  <path d="M.01 7.753a8.14 8.14 0 0 0 .753 3.641 8 8 0 0 0 6.495 4.564 5 5 0 0 1-.785-.377h-.01l-.12-.075a5.5 5.5 0 0 1-1.56-1.463A5.543 5.543 0 0 1 6.81 5.8l.01-.004.025-.012c.208-.098.62-.292 1.167-.285q.194.001.384.033a4 4 0 0 0-.993-.698l-.01-.005C6.348 4.282 5.199 4.263 5 4.263c-2.44 0-4.824 1.634-4.99 3.49m10.263 7.912q.133-.04.265-.084-.153.047-.307.086z"/>
+                  <path d="M10.228 15.667a5 5 0 0 0 .303-.086l.082-.025a8.02 8.02 0 0 0 4.162-3.3.25.25 0 0 0-.331-.35q-.322.168-.663.294a6.4 6.4 0 0 1-2.243.4c-2.957 0-5.532-2.031-5.532-4.644q.003-.203.046-.399a4.54 4.54 0 0 0-.46 5.898l.003.005c.315.441.707.821 1.158 1.121h.003l.144.09c.877.55 1.721 1.078 3.328.996"/>
+                </svg>
+              </div>      
+              <div class="text-center"><a href="https://documentation.avaya.com/bundle/ExperiencePlatform_Solution_Description_10/page/Supported_browsers.html" target="_blank" rel="noopener noreferrer">Fully Supported</a></div>
+            </div>
+          </div><!-- End Pricing Item -->
+
+          <div class="col-lg-2">
+            <div class="pricing-item">
+              <h3>Google Chrome (Windows)</h3>
+              <div class="icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="66" height="66" fill="currentColor" class="bi bi-browser-chrome" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M16 8a8 8 0 0 1-7.022 7.94l1.902-7.098a3 3 0 0 0 .05-1.492A3 3 0 0 0 10.237 6h5.511A8 8 0 0 1 16 8M0 8a8 8 0 0 0 7.927 8l1.426-5.321a3 3 0 0 1-.723.255 3 3 0 0 1-1.743-.147 3 3 0 0 1-1.043-.7L.633 4.876A8 8 0 0 0 0 8m5.004-.167L1.108 3.936A8.003 8.003 0 0 1 15.418 5H8.066a3 3 0 0 0-1.252.243 2.99 2.99 0 0 0-1.81 2.59M8 10a2 2 0 1 0 0-4 2 2 0 0 0 0 4"/>
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="66" height="66" fill="currentColor" class="bi bi-windows" viewBox="0 0 16 16">
+                  <path d="M6.555 1.375 0 2.237v5.45h6.555zM0 13.795l6.555.933V8.313H0zm7.278-5.4.026 6.378L16 16V8.395zM16 0 7.33 1.244v6.414H16z"/>
+                </svg>
+              </div>      
+              <div class="text-center"><a href="https://documentation.avaya.com/bundle/ExperiencePlatform_Solution_Description_10/page/Supported_browsers.html" target="_blank" rel="noopener noreferrer">Fully Supported</a></div>
+            </div>
+          </div><!-- End Pricing Item -->
+
+          <div class="col-lg-2">
+            <div class="pricing-item featured">
+              <h3>Google Chrome (Chrome OS)</h3>
+              <div class="icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="66" height="66" fill="currentColor" class="bi bi-android2" viewBox="0 0 16 16">
+                  <path d="m10.213 1.471.691-1.26q.069-.124-.048-.192-.128-.057-.195.058l-.7 1.27A4.8 4.8 0 0 0 8.005.941q-1.032 0-1.956.404l-.7-1.27Q5.281-.037 5.154.02q-.117.069-.049.193l.691 1.259a4.25 4.25 0 0 0-1.673 1.476A3.7 3.7 0 0 0 3.5 5.02h9q0-1.125-.623-2.072a4.27 4.27 0 0 0-1.664-1.476ZM6.22 3.303a.37.37 0 0 1-.267.11.35.35 0 0 1-.263-.11.37.37 0 0 1-.107-.264.37.37 0 0 1 .107-.265.35.35 0 0 1 .263-.11q.155 0 .267.11a.36.36 0 0 1 .112.265.36.36 0 0 1-.112.264m4.101 0a.35.35 0 0 1-.262.11.37.37 0 0 1-.268-.11.36.36 0 0 1-.112-.264q0-.154.112-.265a.37.37 0 0 1 .268-.11q.155 0 .262.11a.37.37 0 0 1 .107.265q0 .153-.107.264M3.5 11.77q0 .441.311.75.311.306.76.307h.758l.01 2.182q0 .414.292.703a.96.96 0 0 0 .7.288.97.97 0 0 0 .71-.288.95.95 0 0 0 .292-.703v-2.182h1.343v2.182q0 .414.292.703a.97.97 0 0 0 .71.288.97.97 0 0 0 .71-.288.95.95 0 0 0 .292-.703v-2.182h.76q.436 0 .749-.308.31-.307.311-.75V5.365h-9zm10.495-6.587a.98.98 0 0 0-.702.278.9.9 0 0 0-.293.685v4.063q0 .406.293.69a.97.97 0 0 0 .702.284q.42 0 .712-.284a.92.92 0 0 0 .293-.69V6.146a.9.9 0 0 0-.293-.685 1 1 0 0 0-.712-.278m-12.702.283a1 1 0 0 1 .712-.283q.41 0 .702.283a.9.9 0 0 1 .293.68v4.063a.93.93 0 0 1-.288.69.97.97 0 0 1-.707.284 1 1 0 0 1-.712-.284.92.92 0 0 1-.293-.69V6.146q0-.396.293-.68"/>
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="66" height="66" fill="currentColor" class="bi bi-browser-chrome" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M16 8a8 8 0 0 1-7.022 7.94l1.902-7.098a3 3 0 0 0 .05-1.492A3 3 0 0 0 10.237 6h5.511A8 8 0 0 1 16 8M0 8a8 8 0 0 0 7.927 8l1.426-5.321a3 3 0 0 1-.723.255 3 3 0 0 1-1.743-.147 3 3 0 0 1-1.043-.7L.633 4.876A8 8 0 0 0 0 8m5.004-.167L1.108 3.936A8.003 8.003 0 0 1 15.418 5H8.066a3 3 0 0 0-1.252.243 2.99 2.99 0 0 0-1.81 2.59M8 10a2 2 0 1 0 0-4 2 2 0 0 0 0 4"/>
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="66" height="66" fill="currentColor" class="bi bi-windows" viewBox="0 0 16 16">
+                  <path d="M6.555 1.375 0 2.237v5.45h6.555zM0 13.795l6.555.933V8.313H0zm7.278-5.4.026 6.378L16 16V8.395zM16 0 7.33 1.244v6.414H16z"/>
+                </svg>                
+              </div>     
+              <div class="text-center"><a href="https://documentation.avaya.com/bundle/ExperiencePlatform_Solution_Description_10/page/Supported_browsers.html" target="_blank" rel="noopener noreferrer">Only Supported Avaya Workspaces agents</a></div>
+            </div>
+          </div><!-- End Pricing Item -->
+
+          <div class="col-lg-2">
+            <div class="pricing-item">
+              <h3>Mozilla Firefox Standard</h3>
+              <div class="icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="66" height="66" fill="currentColor" class="bi bi-browser-firefox" viewBox="0 0 16 16">
+                  <path d="M13.384 3.408c.535.276 1.22 1.152 1.556 1.963a8 8 0 0 1 .503 3.897l-.009.077-.026.224A7.758 7.758 0 0 1 .006 8.257v-.04q.025-.545.114-1.082c.01-.074.075-.42.09-.489l.01-.051a6.6 6.6 0 0 1 1.041-2.35q.327-.465.725-.87.35-.358.758-.65a1.5 1.5 0 0 1 .26-.137c-.018.268-.04 1.553.268 1.943h.003a5.7 5.7 0 0 1 1.868-1.443 3.6 3.6 0 0 0 .021 1.896q.105.07.2.152c.107.09.226.207.454.433l.068.066.009.009a2 2 0 0 0 .213.18c.383.287.943.563 1.306.741.201.1.342.168.359.193l.004.008c-.012.193-.695.858-.933.858-2.206 0-2.564 1.335-2.564 1.335.087.997.714 1.839 1.517 2.357a4 4 0 0 0 .439.241q.114.05.228.094c.325.115.665.18 1.01.194 3.043.143 4.155-2.804 3.129-4.745v-.001a3 3 0 0 0-.731-.9 3 3 0 0 0-.571-.37l-.003-.002a2.68 2.68 0 0 1 1.87.454 3.92 3.92 0 0 0-3.396-1.983q-.116.001-.23.01l-.042.003V4.31h-.002a4 4 0 0 0-.8.14 7 7 0 0 0-.333-.314 2 2 0 0 0-.2-.152 4 4 0 0 1-.088-.383 5 5 0 0 1 1.352-.289l.05-.003c.052-.004.125-.01.205-.012C7.996 2.212 8.733.843 10.17.002l-.003.005.003-.001.002-.002h.002l.002-.002h.015a.02.02 0 0 1 .012.007 2.4 2.4 0 0 0 .206.48q.09.153.183.297c.49.774 1.023 1.379 1.543 1.968.771.874 1.512 1.715 2.036 3.02l-.001-.013a8 8 0 0 0-.786-2.353"/>
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="66" height="66" fill="currentColor" class="bi bi-windows" viewBox="0 0 16 16">
+                  <path d="M6.555 1.375 0 2.237v5.45h6.555zM0 13.795l6.555.933V8.313H0zm7.278-5.4.026 6.378L16 16V8.395zM16 0 7.33 1.244v6.414H16z"/>
+                </svg>
+              </div>     
+              <div class="text-center"><a href="https://documentation.avaya.com/bundle/ExperiencePlatform_Solution_Description_10/page/Supported_browsers.html" target="_blank" rel="noopener noreferrer">Not supported</a></div>
+            </div>
+          </div><!-- End Pricing Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Pricing Section -->
+
+    <!-- Faq Section -->
+    <section id="faq" class="faq section">
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-6">
+            <div class="faq-container">
+              <div class="faq-item">
+                <h3><span>Agent Assist AI generated summary</span></h3>
+                <div class="faq-content">
+                  <p>Get quick access to information and other resources during an interaction from the Agent Assist widget. The widget provides an AI generated summary of the conversation and helps you to reply quickly and accurately to the customer using online resources.
+                  <a href="https://documentation.avaya.com/bundle/UsingWorkspacesExperiencePlatform10/page/Agent_Assist_widget.html" target="_blank" rel="noopener noreferrer">Agent Assist widget</a></p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3>After Contact Work</span></h3>
+                <div class="faq-content">
+                  <p>Perform additional work and review the interaction details after an interaction. In the After Contact Work (ACW) state, you can also view the interaction transcript. If the account administrator enables After Contact Work, you automatically enter the ACW state after the interaction ends.
+                    <a href="https://documentation.avaya.com/bundle/UsingWorkspacesExperiencePlatform10/page/After_Contact_Work.html" target="_blank" rel="noopener noreferrer">After Contact Work</a></p>                    
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3><span>Consult interactions</span></h3>
+                <div class="faq-content">
+                  <p>Consult an agent or a supervisor before completing a customer query. After the consultation, you can complete the consult call as a transfer or as a conference.
+                    <a href="https://documentation.avaya.com/bundle/UsingWorkspacesExperiencePlatform10/page/Consult_interactions.html" target="_blank" rel="noopener noreferrer">Consult interactions</a></p>                    
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3><span>Corporate contacts overview</span></h3>
+                <div class="faq-content">
+                  <p>Use the Corporate Contacts widget to view Avaya Cloud Office™, Avaya Spaces, and Microsoft Teams contacts and contact groups, make direct and consultation calls to contacts, transfer customer calls, and add contacts to the Favorites list. For the Avaya Cloud Office™ and Microsoft Teams providers, you can also send messages to contacts and chat groups and participate in conversations.
+                    <a href="https://documentation.avaya.com/bundle/UsingCorporateContactsinAvayaWorkspaces/page/Corporate_contacts_overview_user_guide.html" target="_blank" rel="noopener noreferrer">Using corporate contacts in Avaya Workspaces</a></p>                    
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3><span>Customer Journey widget</span></h3>
+                <div class="faq-content">
+                  <p>Use the Customer Journey widget to have a visual representation of customer’s interactions. A complete view of the customer journey across all channels can help to facilitate informed decisions and provide a better customer service. Agents can use the interaction search functionality to view past customer journeys. The interaction search enables agents to filter by activities, date, channels, and identifiers. After the search, agents can choose the customer journey to review from a list of matches. Agents can also review the relevant transcripts of the interactions.
+                    <a href="https://documentation.avaya.com/bundle/UsingWorkspacesExperiencePlatform10/page/Customer_Journey_widget.html" target="_blank" rel="noopener noreferrer">Customer Journey widget</a>
+                    <a href="https://documentation.avaya.com/bundle/UsingWorkspacesExperiencePlatform10/page/Viewing_customer_journey_interaction_history.html" target="_blank" rel="noopener noreferrer">Viewing offline interactions</a></p>                    
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3><span>Digital Library widgets</span></h3>
+                <div class="faq-content">
+                  <p>Use the Digital Library widget to respond to interactions quickly with global and queue templates, such as email and quick text templates.
+                    <a href="https://documentation.avaya.com/bundle/UsingWorkspacesExperiencePlatform10/page/Digital_Library_widget.html" target="_blank" rel="noopener noreferrer">Digital Library widgets</a></p>                    
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3><span>Disposition Codes</span></h3>
+                <div class="faq-content">
+                  <p>Select disposition codes for active voice, email, chat, and messaging interactions. The account administrator configures disposition codes, and you can use them to report the outcome of an interaction.
+                    <a href="https://documentation.avaya.com/bundle/UsingWorkspacesExperiencePlatform10/page/Using_a_voice_interaction_card.html" target="_blank" rel="noopener noreferrer">Working on a voice interaction</a>
+                    <a href="https://documentation.avaya.com/bundle/UsingWorkspacesExperiencePlatform10/page/Using_an_email_interaction_card.html" target="_blank" rel="noopener noreferrer">Working on an email interaction</a>
+                    <a href="https://documentation.avaya.com/bundle/UsingWorkspacesExperiencePlatform10/page/Using_a_chat_interaction_card.html" target="_blank" rel="noopener noreferrer">Working on a chat interaction</a>
+                    <a href="https://documentation.avaya.com/bundle/UsingWorkspacesExperiencePlatform10/page/Using_a_messaging_interaction_card.html" target="_blank" rel="noopener noreferrer">Working on a messaging interaction</a></p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3><span>External calling and outbound emails</span></h3>
+                <div class="faq-content">
+                  <p>Call an external number, including PSTN and SIP numbers. You can also send outbound emails during an active customer interaction on the email channel.
+                    <a href="https://documentation.avaya.com/bundle/UsingWorkspacesExperiencePlatform10/page/Making_an_external_call.html" target="_blank" rel="noopener noreferrer">Making an external call</a>
+                    <a href="https://documentation.avaya.com/bundle/UsingWorkspacesExperiencePlatform10/page/Adhoc_email.html" target="_blank" rel="noopener noreferrer">Adhoc email</a></p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+            </div>
+            
+          </div>
+
+          
+
+          <div class="col-lg-6">
+
+            <div class="faq-container">
+              <div class="faq-item">
+                <h3><span>Not Ready reason codes</span></h3>
+                <div class="faq-content">
+                  <p>In the Agent Details pane, select a reason code for changing your state to Not Ready. You can view the selected reason code next to your state. The Not Ready reason codes also appear in the real-time and historical reports that are available to supervisors. The account administrator configures the reason codes for going into the Not Ready state in Application Center Administration.
+                    <a href="https://documentation.avaya.com/bundle/UsingWorkspacesExperiencePlatform10/page/Agent_states.html" target="_blank" rel="noopener noreferrer">Agent states</a></p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3><span>Screenpops</span></h3>
+                <div class="faq-content">
+                  <p>Access external web pages during an active voice, email, chat, or messaging interaction. For example, you can access an external website with the information about current currency exchange rates. The account administrator enables and configures access to external web pages.
+                    <a href="https://documentation.avaya.com/bundle/UsingWorkspacesExperiencePlatform10/page/Using_a_voice_interaction_card.html" target="_blank" rel="noopener noreferrer">Working on a voice interaction</a>
+                    <a href="https://documentation.avaya.com/bundle/UsingWorkspacesExperiencePlatform10/page/Using_an_email_interaction_card.html" target="_blank" rel="noopener noreferrer">Working on an email interaction</a>
+                    <a href="https://documentation.avaya.com/bundle/UsingWorkspacesExperiencePlatform10/page/Using_a_chat_interaction_card.html" target="_blank" rel="noopener noreferrer">Working on a chat interaction</a>
+                    <a href="https://documentation.avaya.com/bundle/UsingWorkspacesExperiencePlatform10/page/Using_a_messaging_interaction_card.html" target="_blank" rel="noopener noreferrer">Working on a messaging interaction</a></p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3><span>Transfer</span></h3>
+                <div class="faq-content">
+                  <p>Send an interaction to another queue or directly to an agent or a supervisor. You can also transfer a voice interaction to a number outside of the contact center.
+                    <a href="https://documentation.avaya.com/bundle/UsingWorkspacesExperiencePlatform10/page/Transferring_an_interaction_to_a_queue.html" target="_blank" rel="noopener noreferrer">Transferring an interaction to a queue</a>
+                    <a href="https://documentation.avaya.com/bundle/UsingWorkspacesExperiencePlatform10/page/Transferring_an_interaction_to_a_user.html" target="_blank" rel="noopener noreferrer">Transferring an interaction to a user</a>
+                    <a href="https://documentation.avaya.com/bundle/UsingWorkspacesExperiencePlatform10/page/Transferring_a_voice_interaction_to_an_external_number.html" target="_blank" rel="noopener noreferrer">Transferring a voice interaction to an external number</a></p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3><span>Real-time reporting</span></h3>
+                <div class="faq-content">
+                  <p>As a user with the Reporting Supervisor role, you can access the Realtime Reporting dashboard to run real-time reports. Using the dashboard, you can monitor up-to-date statistics for your contact center and resources.
+                    <a href="https://documentation.avaya.com/bundle/UsingWorkspacesExperiencePlatform10/page/Real_time_reporting_overview.html" target="_blank" rel="noopener noreferrer">Real-time reporting overview</a></p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3><span>Supervisor Features - Barge-in</span></h3>
+                <div class="faq-content">
+                  <p>As a supervisor, barge into an interaction to help close a sale or interact with the customer. To barge in, you must first observe or coach the interaction. This feature is available only for chat, messaging, and voice interactions
+                    <a href="https://documentation.avaya.com/bundle/UsingWorkspacesExperiencePlatform10/page/Barging_into_an_interaction.html" target="_blank" rel="noopener noreferrer">Barging into an interaction</a></p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3><span>Supervisor Features - Coach</span></h3>
+                <div class="faq-content">
+                  <p>As a supervisor, coach an agent using the Coach feature. To coach, you must first observe the interaction. This feature is available only for chat, messaging, and voice interactions.
+                    <a href="https://documentation.avaya.com/bundle/UsingWorkspacesExperiencePlatform10/page/Coaching_an_agent.html" target="_blank" rel="noopener noreferrer">Coaching an agent</a></p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3><span>Supervisor Features - Forced agent logout and state change</span></h3>
+                <div class="faq-content">
+                  <p>As a supervisor, change an agent state from Ready to Not Ready to prevent agents from receiving interactions. You can also forcibly log an agent out of Avaya Workspaces and end their session.
+                    <a href="https://documentation.avaya.com/bundle/UsingWorkspacesExperiencePlatform10/page/Agent_state_transitions.html" target="_blank" rel="noopener noreferrer">Agent state transitions</a></p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+              <div class="faq-item">
+                <h3><span>Supervisor Features - Observe</span></h3>
+                <div class="faq-content">
+                  <p>As a supervisor, monitor ongoing interactions between an agent and a customer to assess whether intervention is required. This feature is available only for chat, messaging, and voice interactions.
+                    <a href="https://documentation.avaya.com/bundle/UsingWorkspacesExperiencePlatform10/page/Observing_an_interaction.html" target="_blank" rel="noopener noreferrer">Observing an interaction</a></p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Faq Section -->
+
+    <!-- Team Section -->
+    <section id="team" class="team section">
+
+      <!-- Section Title -->
+      <div class="container section-title">
+        <h2>Team Avaya IT: 1-866-282-9248 or 866-AVAYAIT</h2>
+        <p>Emergency Contact Number: 877-934-3228 - Dial by Name option #9
+          Kory Hill | Extension: 2101
+          Dan Lollo | Extension: 2102
+          </p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-5">
+
+          <div class="col-lg-4 col-md-6 member">
+            <div class="member-img">
+
+              <div class="social">
+                <a href="#"><i class="bi bi-twitter"></i></a>
+                <a href="#"><i class="bi bi-facebook"></i></a>
+                <a href="#"><i class="bi bi-instagram"></i></a>
+                <a href="#"><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+            <div class="member-info text-center">
+              <h4>Gordon A. Galletti</h4>
+              <span>Cloud Delivery Manager | Avaya</span>
+              <p>Phone: CAN +1-613-595-9145
+                Office Hours: 8 AM to 4 PM EDT
+                galletti@avaya.com | avaya.com</p>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-4 col-md-6 member">
+            <div class="member-img">
+        
+              <div class="social">
+                <a href="#"><i class="bi bi-twitter"></i></a>
+                <a href="#"><i class="bi bi-facebook"></i></a>
+                <a href="#"><i class="bi bi-instagram"></i></a>
+                <a href="#"><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+            <div class="member-info text-center">
+              <h4>Kory Hill</h4>
+              <span>Cloud Delivery Supervisor / Team Lead | AVAYA</span>
+              <p>Phone: US +1 615 622-1110 or CAN +1 343 688-1470
+                Office Hours: 8 AM to 4 PM EDT
+                khill@avaya.com | avaya.com</p>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-4 col-md-6 member">
+            <div class="member-img">
+            
+              <div class="social">
+                <a href="#"><i class="bi bi-twitter"></i></a>
+                <a href="#"><i class="bi bi-facebook"></i></a>
+                <a href="#"><i class="bi bi-instagram"></i></a>
+                <a href="#"><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+            <div class="member-info text-center">
+              <h4>Dan Lollo</h4>
+              <span>Cloud Delivery Supervisor / Team Lead | AVAYA</span>
+              <p>Phone: CAN +1 647 360-0500 or US +1 720 674-0500
+                Office Hours: 8 AM to 4 PM EDT
+                danlollo@avaya.com | avaya.com
+                </p>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-4 col-md-6 member">
+            <div class="member-img">
+              
+              <div class="social">
+                <a href="#"><i class="bi bi-twitter"></i></a>
+                <a href="#"><i class="bi bi-facebook"></i></a>
+                <a href="#"><i class="bi bi-instagram"></i></a>
+                <a href="#"><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+            <div class="member-info text-center">
+              <h4>Shane Flooks</h4>
+              <span>Cloud Delivery | Implementation Support Specialist</span>
+              <p>Office Hours: Monday to Friday 8am to 5pm Eastern Time CANADA +1 506 389-6730 | USA +1 720 780-6134 sflooks@avaya.com</p>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-4 col-md-6 member">
+            <div class="member-img">
+             
+              <div class="social">
+                <a href="#"><i class="bi bi-twitter"></i></a>
+                <a href="#"><i class="bi bi-facebook"></i></a>
+                <a href="#"><i class="bi bi-instagram"></i></a>
+                <a href="#"><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+            <div class="member-info text-center">
+              <h4>Chad Hopper</h4>
+              <span>Implementation Specialist | AVAYA Cloud Delivery</span>
+              <p>Office Hours: Monday to Friday 8am to 5pm Eastern Time Phone: CAN +1 343 688-1359 or US +1 720 678-9305 hooper4@avaya.com</p>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-4 col-md-6 member">
+            <div class="member-img">
+             
+              <div class="social">
+                <a href="#"><i class="bi bi-twitter"></i></a>
+                <a href="#"><i class="bi bi-facebook"></i></a>
+                <a href="#"><i class="bi bi-instagram"></i></a>
+                <a href="#"><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+            <div class="member-info text-center">
+              <h4>Lucas Block</h4>
+              <span>Cloud Solutions Design Specialist | AVAYA Cloud Delivery</span>
+              <p>Business Hours: 8:00 - 4:30 EST M-F  Phone: CAN +1 506 268-3157  or US +1 720 678-9928 blockl@avaya.com</p>
+            </div>
+          </div><!-- End Team Member -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Team Section -->
+
+    <!-- Call To Action Section --> <!-- /Call To Action Section -->
+
+    <!-- Testimonials Section --> <!-- /Testimonials Section -->
+
+    <!-- Recent Posts Section --> <!-- /Recent Posts Section -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+
+      <!-- Section Title -->
+      <div class="container section-title">
+        <h2>Contacts</h2>
+        <p>Sales & Support</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-6">
+
+            <div class="row gy-4">
+              <div class="col-md-6">
+                <div class="info-item">
+                  <i class="bi bi-geo-alt"></i>
+                  <h3>Innovatia Inc</h3>
+                  <p>1 Germain Street, Saint John, New Brunswick, Canada, E2L 4V1</p>
+                  <p>Head Office: 1-506-640-4000</p>
+                  <br>
+                  <strong>Innovatia IT Support</strong><br>
+                  <p>We are available from Monday to Friday, however we are closed on statutory holidays (NB, Canada).</p></br>
+
+                   <p>Busniess hours 9:00am - 5:00pm Atlantic Standard Time | GMT-04:00 ​</p>
+                    
+                    <p>1-(506)-640-HELP(4357) or 1-(866)-251-8669 (Toll- Free International)</p><br>
+                    
+                   <p> Emergency Support is available 24/7 and may be reached by calling us.</p><br>
+                   <p>Please submit any and all non-critical / non-emergency issues by <a class="btn-getstarted" href="https://mytracker.innovatia.net:444/">submitting a tracker ticket</a>.</p>
+                   <p>Michael Mclean - emergency issues <a>506-654-3635</a>.</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="col-md-6">
+                <div class="info-item">
+                  <i class="bi bi-telephone"></i>
+                  <h3>Avaya LLC</h3>
+                  <p>U.S. & Canada - +1 908 953 6000</p>
+                  <p>Worldwide - +1 908 953 6000</p>
+                  <h3>Avaya Billing and Payment</h3>
+                  <p>Phone:  1-800-852-2436 (Option 2)</p>
+                  <p>Email: uscare@avaya.com</p>
+
+                  <h3><a href="https://onecare.avaya.com" target="_blank">OneCare ITSS 1-866-282-9248</a></h3><br>
+                  <p>Pro Services #: 1-800-466-7835 ERC:310</P><br>
+                  <p>US NAR Red Entitlement Verification 1-800-242-2121 option 0 Ext. 21935</P>
+                  <p>CA NAR Red Entitlement Verification 1-800-3874268 press 2,2,0,#</P>
+                  <p>Comcode(Parts #) Hotline 1-800-222-1538 option 4<P>
+                  <p>ER#: 972-906-2012</P>
+                  <p>NOC#: 919-905-9853</P>
+                  <p>Front Line#: 1-800-466-7835</P>
+                  <p>Create SR#: 1-800-242-2121</P>
+                  <p>Toll Fraud (ECS products) +1 800-643-2353 </P>
+                  <p>AvayaReturnsNAR " NARRETURNS@AVAYA.COM " RETURN RMA TEAM</P>
+                </div>
+              </div><!-- End Info Item -->
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-6">
+            <form action="forms/contact.php" method="post" class="php-email-form">
+              <div class="row gy-4">
+
+                <div class="col-md-6">
+                  <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
+                </div>
+
+                <div class="col-md-6 ">
+                  <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
+                </div>
+
+                <div class="col-md-12 text-center">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Your message has been sent. Thank you!</div>
+
+                  <button type="submit">Send Message</button>
+                </div>
+
+              </div>
+            </form>
+          </div><!-- End Contact Form -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Contact Section -->
+
+  </main>
+
+  <footer id="footer" class="footer position-relative">
+
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-5 col-md-12 footer-about">
+          <a href="index.html" class="logo d-flex align-items-center">
+            <h1 class="sitename">CloudAssist</h1><span>.AXP</span>
+          </a>
+          <p>Our commitment is to provide the best-in-class service to our customers. Feel free to send your feedback or comments to my Team Leader:</p>
+          <div class="social-links d-flex mt-4">
+            <a href="https://twitter.com/avaya"><i class="bi bi-twitter"></i></a>
+            <a href="https://www.facebook.com/avaya"><i class="bi bi-facebook"></i></a>
+            <a href="https://www.instagram.com/avayainc/"><i class="bi bi-instagram"></i></a>
+            <a href="https://www.linkedin.com/company/avaya/"><i class="bi bi-linkedin"></i></a>
+            <a href="https://www.youtube.com/Avaya"><i class="bi bi-youtube"></i></a>
+            <a href="https://github.com/avaya/"><i class="bi bi-github"></i></a>
+
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-6 footer-links">
+          <h4>Useful Links</h4>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Terms of service</a></li>
+            <li><a href="#">Privacy policy</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-6 footer-links">
+          <h4>Our Services</h4>
+          <ul>
+            <li><a href="https://sales.avaya.com/en/product-category/avaya-experience-platform">Avaya Experience Platform</a></li>
+            <li><a href="https://sales.avaya.com/en/pss/axp-on-prem">AXP On-Prem</a></li>
+            <li><a href="https://sales.avaya.com/en/pss/axp-private-cloud">AXP Private Cloud</a></li>
+            <li><a href="https://sales.avaya.com/en/pss/axp-public-cloud">AXP Public Cloud</a></li>
+            <li><a href="https://sales.avaya.com/en/product-category/avaya-communication-collaboration-suite">Avaya Communication & Collaboration Suite</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-6 footer-links">
+          <h4>Our Services</h4>
+          <ul>
+            <li><a href="https://sales.avaya.com/en/pss/avaya-enterprise-cloud">Avaya Enterprise Cloud</a></li>
+            <li><a href="https://sales.avaya.com/en/product-detail/avaya-cloud-office">Avaya Cloud Office</a></li>
+            <li><a href="https://sales.avaya.com/en/pss/avaya-spaces">Avaya Spaces</a></li>
+            <li><a href="https://sales.avaya.com/en/pss/uc-avaya-aura-platform">Avaya Aura</a></li>
+            <li><a href="https://sales.avaya.com/en/pss/ip-office">Avaya IP Office</a></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container copyright text-center mt-4">
+      <div class="credits"><p id="date"></p>
+        <script>
+        document.getElementById("date").innerHTML = Date();
+        </script>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+ 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/glightbox/3.3.0/js/glightbox.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@srexi/purecounterjs/dist/purecounter_vanilla.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/5.0.0/imagesloaded.pkgd.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/search.js"></script>
+  <script src="assets/js/carousel.js"></script>
+  <script src="assets/js/modals.js"></script>
+  <script src="assets/js/time.js"></script>
+
+ <!-- Strat of the Modal for AXP lab  -->
+ <div class="modal modal-fullscreen" id="axplabModal" tabindex="-1" aria-labelledby="axplabModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-fullscreen">
+    <div class="modal-content modal-fullscreen">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="axplabModalLabel">New message</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body"> 
+            <!-- START THE FEATURETTES -->
+            <table class="table table-striped table-hover">
+                <thead>
+                  <tr>
+                    <th scope="col">Account</th>
+                    <th scope="col">Persona</th>
+                    <th scope="col">Temp Password</th>
+                    <th scope="col">Final Password</th>
+                    <th scope="col">Notes</th>
+                  </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">shane-admin@del.nar.com</th>
+                        <td>Administrator</td>
+                        <td>T3mp123$</td>
+                        <td>AXPConf01!</td>
+                        <td>Created during Lab setup</td>
+                      </tr>
+                  <tr>
+                    <th scope="row">t-kilo01@tr.del.nar.com</th>
+                    <td>Agent</td>
+                    <td>T3mp123$</td>
+                    <td>AXPConf01!</td>
+                    <td>Created during hands-on with bulk upload!</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">t-kilo02@tr.del.nar.com</th>
+                    <td>Agent</td>
+                    <td>T3mp123$</td>
+                    <td>AXPConf01!</td>
+                    <td>Created during hands-on - Manual!</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">t-kilosuper@tr.del.nar.com</th>
+                    <td>Supervisor</td>
+                    <td>T3mp123$</td>
+                    <td>AXPConf01!</td>
+                    <td>Created during hands-on with bulk upload!</td>
+                  </tr>
+                </tbody>
+              </table>
+        
+              <table class="table table-striped table-hover">
+                <thead>
+                  <tr>
+                    <th scope="col">Business Unit</th>
+                    <th scope="col">Assigned</th>
+                    <th scope="col">Notes</th>
+                   </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Account ID</td>
+                        <td>WICFMB</td>
+                        <td>Notes</td>
+                    </tr> 
+                    <tr>
+                        <td>Account Name</td>
+                        <td>Intl Cloud Delivery NAR</td>
+                        <td>Notes</td>
+                    </tr> 
+                        <td>Application Center</td>
+                        <td>https://experience.cc.avayacloud.com/services/ApplicationCenter/</td>
+                        <td>Notes</td>
+                    </tr> 
+         
+                    <tr>
+                        <td>Workspaces</td>
+                        <td>https://wep-01.integration.ws-nonprod.avayacloud.com/services/ApplicationCenter/workspaces/</td>
+                        <td>Notes</td>
+                    </tr> 
+                    <tr>
+                        <td>Voice Number</td>
+                        <td>+16062291018 | +16062291112 | +17207806134 | +13896730</td>
+                        <td>Notes</td>
+                    </tr> 
+                    <tr>
+                        <td>Email account ID</td>
+                        <td>avayaccaasomni@gmail.com</td>
+                        <td>Notes</td>
+                    </tr> 
+                    <tr>
+                        <td>API Client ID</td>
+                        <td>clientApp1</td>
+                        <td>Notes</td>
+                    </tr> 
+                    <tr>
+                        <td>API Password ID</td>
+                        <td>tKwbRjSHp0B2MTn2BbR1F07CrmasD4Jo</td>
+                        <td>Notes</td>
+                    </tr> 
+                </tbody>
+              </table>
+              <h4><strong>Avaya Service Maintenance and Support access on HCM production for accessing HCM Widget</strong></h4>
+              <table class="table table-striped table-hover">
+                <thead>
+                  <tr>
+                    <th scope="col">Region</th>
+                    <th scope="col">url</th>
+                    <th scope="col">AccountName username</th>
+                   </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Prod-NA</td>
+                        <td>https://na.cc.avayacloud.com/services/ApplicationCenter/</td>
+                        <td>flookshcm@avaya.com default</td>
+                    </tr> 
+                    <tr>
+                        <td>Prod-ASE</td>
+                        <td>https://ap.cc.avayacloud.com/services/ApplicationCenter/</td>
+                        <td>flookshcm@avaya.com default</td>
+                    </tr> 
+                        <td>Application Center</td>
+                        <td>https://experience.cc.avayacloud.com/services/ApplicationCenter/</td>
+                        <td>flookshcm@avaya.com default</td>
+                    </tr> 
+         
+                    <tr>
+                        <td>Prod-EU</td>
+                        <td>https://eu.cc.avayacloud.com/services/ApplicationCenter/</td>
+                        <td>flookshcm@avaya.com default</td>
+                    </tr> 
+                    <tr>
+                        <td>Prod-SA</td>
+                        <td>https://sa.cc.avayacloud.com/services/ApplicationCenter/</td>
+                        <td>flookshcm@avaya.com default</td>
+                    </tr> 
+                    <tr>
+                        <td>Prod-AUE</td>
+                        <td>https://au.cc.avayacloud.com/services/ApplicationCenter/</td>
+                        <td>flookshcm@avaya.com default</td>
+                    </tr> 
+                    <tr>
+                        <td>Prod-UK</td>
+                        <td>https://uk.cc.avayacloud.com/services/ApplicationCenter/</td>
+                        <td>flookshcm@avaya.com default</td>
+                    </tr> 
+                    <tr>
+                        <td>Prod-IN</td>
+                        <td>https://in.cc.avayacloud.com/services/ApplicationCenter/</td>
+                        <td>flookshcm@avaya.com default</td>
+                    </tr> 
+                </tbody>
+              </table>
+
+<!--Del-->
+<section><!-- /AXP Basic Build Checklist v3 -->
+  <section id="AXPBasicBuildChecklistv3" class="AXPBasicBuildChecklistv3 section">   
+    <div class="container">
+        <!-- Page Title -->
+        <div class="page-title">
+          <div class="container section-title">
+            <h2>AXP Basic Build Checklist v3</h2>
+              <p><i class="bi bi-check-circle"></i> Installation Steps</p>    
+          </div><!-- End Section Title -->
+          <nav class="breadcrumbs">
+            <div class="container">
+              <ol>
+                <li><a href="#">AXP Basic Build Checklist v3</a></li>
+                <li class="current">Voice Installation Steps</li>
+              </ol>
+            </div>
+          </nav>
+          <div class="container">
+            <div class="row">
+          <p>Hello World</p>
+          </div>
+        </div>
+          <nav class="breadcrumbs">
+            <div class="container">
+              <ol>
+                <li><a href="#">AXP Basic Build Checklist v3</a></li>
+                <li class="current">Voice Installation Steps</li>
+              </ol>
+            </div>
+          </nav>
+        </div><!-- End Page Title -->
+      </div> 
+</section><!-- /Voice Section Section -->	
+<!--Del-->
+           </div>
+         <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+ <!-- End of the Modal for AXP lab  -->
+ 
+</body>
+
+</html>
